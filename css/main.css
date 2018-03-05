@@ -13,60 +13,30 @@ h1 {
 
 .header {
   background-color: #2de1fc;
-  display: none;
-}
 
-.img-flex {
-  width: 100%;
-}
-
-.weekly-forecast {
-  width: 100%;
-}
-
-.weekly-cards {
-  background-color: #f0f0f0;
-  border-radius: 20px;
-  border: solid white 5px;
 }
 
 th, td {
 text-align: center;
 }
 
-@media only screen and (min-width: 25em) {
+@media only screen and (max-width: 25em) {
   font-size: 1.99em;
 
 
 }
 
-@media only screen and (min-width: 38em) {
+@media only screen and (max-width: 38em) {
+
   .header {
-    display: block;
-  }
-
-  .weekly-forecast {
-    width: 75%;
-    margin: 0 auto;
-  }
-
-  .short-h5 {
     display: none;
   }
-  .long-h5 {
-  display: none;
-  }
 }
 
-@media only screen and (min-width: 60em) {
-  .weekly-forecast {
-    width: 50%;
-  }
+@media only screen and (max-width: 60em) {
+
 }
 
-@media only screen and (min-width: 90em) {
+@media only screen and (max-width: 90em) {
 
-  .long-h5 {
-    display: block;
-  }
 }
