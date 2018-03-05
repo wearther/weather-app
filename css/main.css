@@ -1,3 +1,23 @@
-.banner {
+html {
+  font-family: 'Roboto', sans-serif;
+
+}
+
+h1 {
+  font-weight: 400;
+  color: #2de1fc;
+
+}
+
+.header {
   background-color: #2de1fc;
+
+}
+
+@media only screen and (max-width: 650px) {
+
+  .header {
+    display: none;
+  }
+
 }
