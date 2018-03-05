@@ -36,6 +36,7 @@ th, td {
   display: none;
 }
 
+
 @media only screen and (min-width: 25em) {
   h1 {
     font-size: 1.99em;
@@ -62,8 +63,14 @@ th, td {
   }
 }
 
+
 @media only screen and (min-width: 60em) {
   .weekly-forecast {
     width: 50%;
   }
+}
+
+
+@media only screen and (min-width: 90em) {
+
 }
