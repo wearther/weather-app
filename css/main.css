@@ -1,6 +1,5 @@
 html {
   font-family: 'Roboto', sans-serif;
-
 }
 
 h1 {
@@ -8,35 +7,79 @@ h1 {
   color: #2de1fc;
   font-size: 2.827em;
   line-height: 1.25;
-
+  margin-bottom: 0;
 }
 
 .header {
   background-color: #2de1fc;
-
+  display: none;
 }
 
 th, td {
-text-align: center;
+  text-align: center;
 }
 
-@media only screen and (max-width: 25em) {
-  font-size: 1.99em;
-
-
+.img-flex {
+  width: 100%;
 }
 
-@media only screen and (max-width: 38em) {
+.weekly-forecast {
+  width: 100%;
+}
 
-  .header {
-    display: none;
+.weekly-cards {
+  background-color: #f0f0f0;
+  border-radius: 20px;
+  border: solid white 5px;
+}
+
+.long-h5 {
+  display: none;
+}
+
+.icon-custom {
+  height: 105px;
+  width: 105px;
+}
+
+@media only screen and (min-width: 25em) {
+  h1 {
+    font-size: 1.99em;
+  }
+  .icon-custom {
+    height: 192px;
+    width: 192px;
   }
 }
 
-@media only screen and (max-width: 60em) {
 
+@media only screen and (min-width: 38em) {
+  .header {
+    display: block;
+  }
+
+  .weekly-forecast {
+    width: 75%;
+    margin: 0 auto;
+  }
+
+  .short-h5 {
+    display: none;
+  }
+
+  .long-h5 {
+    display: block;
+  }
 }
 
-@media only screen and (max-width: 90em) {
+
+@media only screen and (min-width: 60em) {
+  .weekly-forecast {
+    width: 50%;
+  }
+}
+
+
+@media only screen and (min-width: 90em) {
 
 }
