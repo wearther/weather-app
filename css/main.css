@@ -37,18 +37,9 @@ th, td {
   display: none;
 }
 
-.icon-custom {
-  height: 105px;
-  width: 105px;
-}
-
 @media only screen and (min-width: 25em) {
   h1 {
     font-size: 1.99em;
-  }
-  .icon-custom {
-    height: 192px;
-    width: 192px;
   }
 }
 
