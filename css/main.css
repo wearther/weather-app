@@ -17,6 +17,7 @@ h1 {
 
 th, td {
   text-align: center;
+  font-size: .75em;
 }
 
 .img-flex {
@@ -41,8 +42,11 @@ th, td {
   h1 {
     font-size: 1.99em;
   }
+  .icon-custom {
+    height: 192px;
+    width: 192px;
+  }
 }
-
 
 @media only screen and (min-width: 38em) {
   .header {
