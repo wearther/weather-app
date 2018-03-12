@@ -5,7 +5,7 @@ html {
 h1 {
   font-weight: 400;
   color: #2de1fc;
-  font-size: 3em;
+  font-size: 3.5em;
   line-height: 1.25;
   margin-bottom: 0;
 }
@@ -37,8 +37,15 @@ h2 {
 
 .current-temp-icon {
   position: relative;
-  left: 65px;
+  left: 60px;
   width: 22%;
+}
+
+.current-temp-icon-ot {
+  position: relative;
+  left: 27%;
+  top: 15%;
+  width: 12%;
 }
 
 .weekly-forecast {
@@ -113,7 +120,11 @@ input[type="checkbox"]:checked:hover + label:before {
 @media only screen and (min-width: 25em) {
   .current-temp-icon {
     width: 15%;
-    left: 65px;
+  }
+
+  .current-temp-icon-ot {
+    left: 21%;
+    top: 10%;
   }
 
   td > p {
@@ -132,7 +143,14 @@ input[type="checkbox"]:checked:hover + label:before {
 
   .current-temp-icon {
     width: 13%;
-    left: 70px;
+    left: 60px;
+    top: 15%;
+  }
+
+  .current-temp-icon-ot {
+    left: 17%;
+    top: 12%;
+    width: 10%;
   }
 
   .weekly-forecast {
@@ -156,8 +174,16 @@ input[type="checkbox"]:checked:hover + label:before {
     width: 80%;
   }
 
+  .h1-ottawa {
+    font-size: 4em;
+  }
+
   .icon-large {
     margin-top: 9em;
+  }
+
+  .icon-large-ot {
+    margin-top: 12em;
   }
 
   h2 {
@@ -166,9 +192,15 @@ input[type="checkbox"]:checked:hover + label:before {
   }
 
   .current-temp-icon {
-    left: 100px;
+    left: 75px;
     top: 30%;
-    width: 17%;
+    width: 22%;
+  }
+
+  .current-temp-icon-ot {
+    left: 28%;
+    top: 38%;
+    width: 16%;
   }
 
   .weekly-forecast {
@@ -190,8 +222,16 @@ input[type="checkbox"]:checked:hover + label:before {
     font-size: 4.5em;
   }
 
+  .h1-ottawa {
+    font-size: 5em;
+  }
+
   .icon-large {
     margin-top: 13.5em;
+  }
+
+  .icon-large-ot {
+    margin-top: 9em;
   }
 
   h2 {
@@ -202,7 +242,13 @@ input[type="checkbox"]:checked:hover + label:before {
   .current-temp-icon {
     top: 13%;
     left: 105px;
-    width: 12%;
+    width: 17%;
+  }
+
+  .current-temp-icon-ot {
+    left: 25%;
+    top: 20%;
+    width: 14%;
   }
 
   td > p {
