@@ -64,16 +64,16 @@ h2 {
   .current-temp-icon {
     width: 18%;
     left: 65px;
-
-  .icon-custom {
-    height: 192px;
-    width: 192px;
   }
 }
 
 @media only screen and (min-width: 38em) {
   .header {
     display: block;
+  }
+
+  .center-block {
+    width: 80%;
   }
 
   .current-temp-icon {
@@ -98,9 +98,13 @@ h2 {
 
 
 @media only screen and (min-width: 60em) {
+  .center-block {
+    width: 80%;
+  }
+
   .current-temp-icon {
-    top: 14%;
-    left: 75px;
+    left: 80px;
+    top: 8px;
     width: 17%;
   }
 
