@@ -2,9 +2,13 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>WEARTHER · What to wear, based on the weather</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="description" content="WEARTHER showing the weather for Sydney, Australia.">
+  <!--Bootstrap link-->
+  <link href="js/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="css/modules.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
@@ -17,7 +21,15 @@
   <meta property="og:description" content="WEARTHER showing the weather for Sydney, Australia.">
 </head>
 <body>
+  <!--jQuery link-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js" type="text/javascript"></script>
+   <!--Bootstrap link-->
+  <script src="js/bootstrap-3.3.7-dist/css/popper.min.js" type="text/javascript"></script>
+  <script src="js/bootstrap-3.3.7-dist/js/bootstrap.min.js" type="text/javascript"></script>
+  <!--Dropdown Link-->
+  <script src="js/bootstrap-3.3.7-dist/js/bootstrap-dropdown.js" type="text/javascript"></script>
 
+  <link href="js/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
   <header class="header grid grid-middle">
     <div class="unit xs-1 island-1-4 l-1-4">
       <a href="index.html"
@@ -28,8 +40,24 @@
     <div>
   </header>
 
-  <main class="grid">
+  <div class="grid grid middle island">
+    <div class="btn-group unit xs-1">
+      <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Enter Location</button>
+      <button type="button" class="btn btn-danger dropdown-toggle-split">
+      <span class="sr-only">Enter Location</span>
+      <img src="images/heart.svg" class="image-flex">
+      </button>
+      <div class="dropdown-menu">
+        <a class="dropdown-item island-1-2" href="#">VANCOUVER, BC, CANADA<br></a>
+        <a class="dropdown-item island-1-2" href="ottawa.html">OTTAWA, ON, CANADA<br></a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item island-1-2" href="#">CHICAGO, IL, UNITED STATES<br></a>
+      </div>
+    </div>
+  </div>
 
+
+  <main class="grid">
       <div class="unit xs-1 s-1 m-1 l-1-2 pad-t gutter">
         <h1>BRIGHT AND HOT.<br>WEAR YOUR SUNNIES.</h1>
       </div>
