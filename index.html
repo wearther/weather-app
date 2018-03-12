@@ -4,7 +4,9 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>WEARTHER</title>
+  <title>WEARTHER · What to wear, based on the weather</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="WEARTHER showing the weather for Sydney, Australia.">
   <!--Bootstrap link-->
   <link href="js/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="css/modules.css" rel="stylesheet">
@@ -12,6 +14,11 @@
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_CA">
+  <meta property="og:title" content="WEARTHER · What to wear, based on the weather">
+  <meta property="og:site_name" content="WEARTHER">
+  <meta property="og:description" content="WEARTHER showing the weather for Sydney, Australia.">
 </head>
 <body>
   <!--jQuery link-->
@@ -72,16 +79,12 @@
         </div>
       </div>
 
-    <div class="unit xs-1 s-1 m-1 l-1-2">
-      <div class="grid">
-        <div class="unit xs-1-3">
-          <h2>28°C</h2>
-        </div>
-        <div class="unit xs-1-3">
-          <img>
-        </div>
-      </div>
+<!--Start of Current Temp-->
+    <div class="unit xs-1 s-1 m-1 l-1-2 gutter container-ct">
+      <h2 class="push-0 inline-block">28°C</h2>
+      <img src="images/sun.svg" class="inline-block current-temp-icon"/>
     </div>
+<!--End of Current Temp-->
 
 <!--Start of Forecast Table-->
     <div class="unit xs-1 s-1 m-1 l-1-2">
@@ -108,10 +111,11 @@
         </table>
       </div>
     </div>
-<!--End of Foreast Table-->
+<!--End of Forecast Table-->
   </main>
 
-  <table cellpadding="5" class="weekly-forecast">
+<!--Start of Week's Forecast-->
+  <table cellpadding="5" class="weekly-forecast text-center">
     <tr>
 
       <td align="center" valign="center" class="weekly-cards">
@@ -166,6 +170,6 @@
 
     </tr>
   </table>
-
+<!--End of Week's Forecast-->
 </body>
 </html>

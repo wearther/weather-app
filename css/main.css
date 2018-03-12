@@ -24,8 +24,26 @@ th, td {
   width: 100%;
 }
 
+.container-ct {
+  position: relative;
+}
+
+h2 {
+  color: #2de1fc;
+  font-size: 200%;
+  position: absolute;
+  top: 23%;
+}
+
+.current-temp-icon {
+  position: relative;
+  left: 65px;
+  width: 22%;
+}
+
 .weekly-forecast {
   width: 100%;
+  margin-top: 2em;
 }
 
 .weekly-cards {
@@ -96,6 +114,11 @@ input[type="checkbox"]:checked:hover + label:before {
   h1 {
     font-size: 1.99em;
   }
+
+  .current-temp-icon {
+    width: 18%;
+    left: 65px;
+
   .icon-custom {
     height: 192px;
     width: 192px;
@@ -107,9 +130,15 @@ input[type="checkbox"]:checked:hover + label:before {
     display: block;
   }
 
+  .current-temp-icon {
+    width: 13%;
+    left: 70px;
+  }
+
   .weekly-forecast {
     width: 75%;
     margin: 0 auto;
+    margin-top: 2em;
   }
 
   .short-h5 {
@@ -123,6 +152,12 @@ input[type="checkbox"]:checked:hover + label:before {
 
 
 @media only screen and (min-width: 60em) {
+  .current-temp-icon {
+    top: 14%;
+    left: 75px;
+    width: 17%;
+  }
+
   .weekly-forecast {
     width: 50%;
   }
@@ -130,5 +165,9 @@ input[type="checkbox"]:checked:hover + label:before {
 
 
 @media only screen and (min-width: 90em) {
-
+  .current-temp-icon {
+    top: 13%;
+    left: 83px;
+    width: 12%;
+  }
 }
