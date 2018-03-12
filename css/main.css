@@ -168,14 +168,14 @@ input[type="checkbox"]:checked:hover + label:before {
   }
 
   .weekly-forecast {
-    width: 50%;
+    width: 77%;
   }
 }
 
 
 @media only screen and (min-width: 90em) {
   h1 {
-    font-size: 4em;
+    font-size: 4.5em;
   }
 
   .icon-large {
@@ -183,6 +183,7 @@ input[type="checkbox"]:checked:hover + label:before {
   }
 
   h2 {
+    font-size: 350%;
     top: 35%;
   }
 
