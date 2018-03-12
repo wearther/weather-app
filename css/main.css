@@ -5,7 +5,7 @@ html {
 h1 {
   font-weight: 400;
   color: #2de1fc;
-  font-size: 2.827em;
+  font-size: 3em;
   line-height: 1.25;
   margin-bottom: 0;
 }
@@ -57,10 +57,6 @@ h2 {
 }
 
 @media only screen and (min-width: 25em) {
-  h1 {
-    font-size: 1.99em;
-  }
-
   .current-temp-icon {
     width: 18%;
     left: 65px;
@@ -115,6 +111,10 @@ h2 {
 
 
 @media only screen and (min-width: 90em) {
+  h1 {
+    font-size: 4em;
+  }
+
   .current-temp-icon {
     top: 13%;
     left: 83px;
