@@ -115,6 +115,10 @@ input[type="checkbox"]:checked:hover + label:before {
     width: 15%;
     left: 65px;
   }
+
+  td > p {
+    font-size: 1.5em;
+  }
 }
 
 @media only screen and (min-width: 38em) {
@@ -170,6 +174,14 @@ input[type="checkbox"]:checked:hover + label:before {
   .weekly-forecast {
     width: 77%;
   }
+
+  h5 {
+    padding-top: .5em;
+  }
+
+  td > p {
+    font-size: 2em;
+  }
 }
 
 
@@ -191,5 +203,9 @@ input[type="checkbox"]:checked:hover + label:before {
     top: 13%;
     left: 105px;
     width: 12%;
+  }
+
+  td > p {
+    font-size: 2.5em;
   }
 }
