@@ -7,6 +7,7 @@ h1 {
   color: #2de1fc;
   font-size: 2.827em;
   line-height: 1.25;
+  margin-bottom: 0;
 }
 
 .header {
@@ -16,6 +17,7 @@ h1 {
 
 th, td {
   text-align: center;
+  font-size: .75em;
 }
 
 .img-flex {
@@ -54,7 +56,6 @@ h2 {
   display: none;
 }
 
-
 @media only screen and (min-width: 25em) {
   h1 {
     font-size: 1.99em;
@@ -63,9 +64,12 @@ h2 {
   .current-temp-icon {
     width: 18%;
     left: 65px;
+
+  .icon-custom {
+    height: 192px;
+    width: 192px;
   }
 }
-
 
 @media only screen and (min-width: 38em) {
   .header {
