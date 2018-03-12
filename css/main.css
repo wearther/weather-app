@@ -58,7 +58,7 @@ h2 {
 
 @media only screen and (min-width: 25em) {
   .current-temp-icon {
-    width: 18%;
+    width: 15%;
     left: 65px;
   }
 }
@@ -98,9 +98,18 @@ h2 {
     width: 80%;
   }
 
+  .icon-large {
+    margin-top: 9em;
+  }
+
+  h2 {
+    font-size: 250%;
+    top: 45%;
+  }
+
   .current-temp-icon {
-    left: 80px;
-    top: 8px;
+    left: 100px;
+    top: 30%;
     width: 17%;
   }
 
@@ -115,9 +124,17 @@ h2 {
     font-size: 4em;
   }
 
+  .icon-large {
+    margin-top: 13.5em;
+  }
+
+  h2 {
+    top: 35%;
+  }
+
   .current-temp-icon {
     top: 13%;
-    left: 83px;
+    left: 105px;
     width: 12%;
   }
 }
