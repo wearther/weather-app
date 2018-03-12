@@ -36,18 +36,14 @@
         </div>
       </div>
 
-    <div class="unit xs-1 s-1 m-1 l-1-2">
-      <div class="grid">
-        <div class="unit xs-1-3">
-          <h2>28°C</h2>
-        </div>
-        <div class="unit xs-1-3">
-          <img>
-        </div>
-      </div>
+<!--Start of Current Temp-->
+    <div class="unit xs-1 s-1 m-1 l-1-2 gutter container-ct">
+      <h2 class="push-0 inline-block">28°C</h2>
+      <img src="images/sun.svg" class="inline-block current-temp-icon"/>
     </div>
+<!--End of Current Temp-->
 
-<!--Start of Foreast Table-->
+<!--Start of Forecast Table-->
     <div class="unit xs-1 s-1 m-1 l-1-2">
       <div class="island table-wrapper">
         <table class="push-0">
@@ -72,10 +68,11 @@
         </table>
       </div>
     </div>
-<!--End of Foreast Table-->
+<!--End of Forecast Table-->
   </main>
 
-  <table cellpadding="5" class="weekly-forecast">
+<!--Start of Week's Forecast-->
+  <table cellpadding="5" class="weekly-forecast text-center">
     <tr>
 
       <td align="center" valign="center" class="weekly-cards">
@@ -130,6 +127,6 @@
 
     </tr>
   </table>
-
+<!--End of Week's Forecast-->
 </body>
 </html>
