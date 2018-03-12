@@ -5,7 +5,7 @@ html {
 h1 {
   font-weight: 400;
   color: #2de1fc;
-  font-size: 2.827em;
+  font-size: 3em;
   line-height: 1.25;
   margin-bottom: 0;
 }
@@ -111,23 +111,19 @@ input[type="checkbox"]:checked:hover + label:before {
 
 
 @media only screen and (min-width: 25em) {
-  h1 {
-    font-size: 1.99em;
-  }
-
   .current-temp-icon {
-    width: 18%;
+    width: 15%;
     left: 65px;
-
-  .icon-custom {
-    height: 192px;
-    width: 192px;
   }
 }
 
 @media only screen and (min-width: 38em) {
   .header {
     display: block;
+  }
+
+  .center-block {
+    width: 80%;
   }
 
   .current-temp-icon {
@@ -152,9 +148,22 @@ input[type="checkbox"]:checked:hover + label:before {
 
 
 @media only screen and (min-width: 60em) {
+  .center-block {
+    width: 80%;
+  }
+
+  .icon-large {
+    margin-top: 9em;
+  }
+
+  h2 {
+    font-size: 250%;
+    top: 45%;
+  }
+
   .current-temp-icon {
-    top: 14%;
-    left: 75px;
+    left: 100px;
+    top: 30%;
     width: 17%;
   }
 
@@ -165,9 +174,21 @@ input[type="checkbox"]:checked:hover + label:before {
 
 
 @media only screen and (min-width: 90em) {
+  h1 {
+    font-size: 4em;
+  }
+
+  .icon-large {
+    margin-top: 13.5em;
+  }
+
+  h2 {
+    top: 35%;
+  }
+
   .current-temp-icon {
     top: 13%;
-    left: 83px;
+    left: 105px;
     width: 12%;
   }
 }
